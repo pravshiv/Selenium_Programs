@@ -24,8 +24,8 @@ public class WebDriverBasics {
 		System.out.println(getCurrentUrl);
 		String title = driver.getTitle();
 		System.out.println(title);
-		driver.findElement(By.xpath("//*[@id='tsf']/div[2]/div/div[1]/div/div[1]/input")).sendKeys("Praveen Naika Shivakumara");
-        driver.close();
+		//driver.findElement(By.xpath("//*[@id='tsf']/div[2]/div/div[1]/div/div[1]/input")).sendKeys("Praveen Naika Shivakumara");
+        //driver.close();
 	}
 
 }
